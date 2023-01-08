@@ -4,8 +4,7 @@ body{
 header{
     display :flex ;
 align-items: center;
-background-color: aquamarine;
-
+background-color: rgb(93, 91, 233);
 }
 header div:nth-child(2){
     width: 100%;
@@ -14,18 +13,40 @@ header h1{
     text-align: center;
 }
 header img{
-    margin:20px;
+    margin: 10px;
+    margin-left: 40px;
+}
+header img{
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    border-radius: 20%;
 }
 main h2{
     margin: 20px;
+}
+main {
+    height: 250px;
+    overflow-y: scroll;
 }
 #content{
     width: 800px;
     margin: 0 auto;
 }
+li {
+    display: flex;
+    background-color: rgb(93, 91, 233);
+    width: 650px;
+    height: 20px;
+    border: 10px rgb(93, 91, 233);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+}
+li :hover{
+    background-color: black;
+}
 footer{
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(93, 91, 233);
 }
 footer p{
     width: 100%;
