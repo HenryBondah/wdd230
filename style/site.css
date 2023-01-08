@@ -4,7 +4,7 @@ body{
 header{
     display :flex ;
 align-items: center;
-background-color: rgb(93, 91, 233);
+background-color: rgb(39, 156, 219);
 }
 header div:nth-child(2){
     width: 100%;
@@ -33,10 +33,10 @@ main {
 }
 li {
     display: flex;
-    background-color: rgb(93, 91, 233);
+    background-color: rgb(39, 156, 219);
     width: 650px;
     height: 20px;
-    border: 10px rgb(93, 91, 233);
+    border: 10px rgb(39, 156, 219);
     padding: 10px;
     margin: 20px;
     border-radius: 15px;
@@ -46,7 +46,7 @@ li :hover{
 }
 footer{
     display: flex;
-    background-color: rgb(93, 91, 233);
+    background-color: rgb(39, 156, 219);
 }
 footer p{
     width: 100%;
