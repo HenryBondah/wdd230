@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Sofia+Sans&family=Sofia+Sans+Condensed&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
 }
 header{
     display :flex ;
-align-items: center;
-background-color: rgb(39, 156, 219);
+    align-items: center;
+    background-color: rgb(39, 156, 219);
 }
 header div:nth-child(2){
     width: 100%;
 }
 header h1{
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     text-align: center;
 }
 header img{
@@ -21,10 +28,13 @@ header img{
     border-radius: 20%;
 }
 main h2{
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     margin: 20px;
 }
 main {
-    height: 250px;
+    height: 300px;
     overflow-y: scroll;
 }
 #content{
@@ -32,6 +42,9 @@ main {
     margin: 0 auto;
 }
 li {
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     display: flex;
     background-color: rgb(39, 156, 219);
     width: 650px;
@@ -41,11 +54,8 @@ li {
     margin: 20px;
     border-radius: 15px;
 }
-li :hover{
-    background-color: black;
-}
 footer{
-    display: flex;
+    padding: 2px;
     background-color: rgb(39, 156, 219);
 }
 footer p{
