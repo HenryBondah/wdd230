@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Design Principles">
+    <title>Design Principles Document Lesson 2</title>
+    <link rel="stylesheet" href="./style/large.css">
+</head>
+<div></div>
+        <style>  
+            body{
+                display: grid;
+                /* grid-template-columns: 1fr 2fr 2fr; */
+                /* grid-template-columns: 20% 30% 40%; */
+                grid-template-areas: "s1 s2" 
+                                     "s3 s3"; 
+            }
+    
+            #section1{
+                grid-area: s1;            
+                background-color: lightblue;
+            }
+            #section2{
+                grid-area: s2;            
+                background-color: lightgreen;
+            }
+    
+            #section3{
+                grid-area: s3;            
+                background-color: lightcoral;
+            }
+    
+            section{
+                padding: 1rem;            
+                border: 2px solid black;
+                margin: 1rem;
+            }
+        </style>
+      </head>
+      <body>    
+        <section id="section1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </section>
+        <section id="section2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </section>
+        <section id="section3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </section>
+      </body>
+    </html>
+    
+          <footer><p>&copy; Henry Dean Bondah | <span id = "year"></span> </p>
+            <p>Last Updated: <span id="lastmodified"> </span></p> </footer>
+    </div>
+</body>
+</html>
