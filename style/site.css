@@ -8,7 +8,7 @@ body{
 header{
     display :flex ;
     align-items: center;
-    background-color: rgb(110, 164, 194);
+    background-color: rgb(39, 156, 219);
 }
 header div:nth-child(2){
     width: 100%;
