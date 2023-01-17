@@ -1,7 +1,6 @@
 @media screen and (max-width: 700px){
-    header, footer, body, #container, 
-    #section1, #section2, #section3 #section{
-        background-color: rgb(255, 192, 245);
+    header, footer{
+        background-color: rgb(34, 18, 215);
         border: 4px black solid;
         border-radius:1rem;
 
