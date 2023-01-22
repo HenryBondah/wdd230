@@ -45,15 +45,35 @@ nav a {
   color: black;
 }
 
-h1, h2, p {
+h1, h2, p, h5{
     text-align: center;
 }
 img {
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .active {
   background-color: rgb(227,155,74);
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+#section1{
+  background-color: rgb(232, 244, 247);
+  border-radius:1rem;
+}
+
+#section2{
+  background-color: rgb(232, 244, 247);
+  border-radius:1rem;
+}
+
+section{
+  padding: 1rem;            
+  border: 2px solid black;
+  margin: 1rem;
 }
 
 /* Media Query Updates for middle widths */
