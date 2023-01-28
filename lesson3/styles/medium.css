@@ -5,3 +5,21 @@
       flex-direction: row;
     }
   }  
+#navbar{
+  display: none;
+}
+#manu-open{
+  display: none;
+}
+#manu-close{
+  display: inline;
+}
+#navbar.manu-active{
+  display: flex;
+}
+#manu-open.manu-active{
+  display: inline;
+}
+#manu-close.manu-active{
+  display: none;
+}
