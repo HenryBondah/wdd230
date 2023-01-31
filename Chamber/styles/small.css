@@ -50,9 +50,42 @@ header h1 {
 header h2 {
     font-size: 1rem;
 }
-
-
-
-
-
-
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    height: 50rem;
+}
+#container section{
+    border: 1px solid black;
+}
+#hero{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+#event{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+#weather{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+#newRelease{
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+#join{
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+.spotlight{
+    grid-column: 1/4;
+    grid-row: 6/7;
+    display: grid;
+}
+section#spotlight{
+    
+}
