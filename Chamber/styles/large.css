@@ -2,7 +2,7 @@
     nav ul li a {
         padding: .5rem 1rem;
     }
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,19 +18,9 @@ header div:nth-child(2){
 .logo img{
     margin: 10px;
     margin-left: 40px;
-    border-radius: 20%;
+  
 }
-footer{
-    padding: 2px;
-    background-color: rgb(0, 13, 255);
-}
-footer p{
-    width: 100%;
-    text-align: center;
-    display: block;
-    justify-content: flex-end;
-    color: white;
-}
+
 #section {
   width: 500px;
   margin: 20px auto;
@@ -39,6 +29,9 @@ footer p{
 }
 header p {
     margin-top: -1px;
+}
+header h1 {
+    margin-top: -13px;
 }
 .social{
     display: flex;
@@ -51,10 +44,7 @@ header p {
     font-size: 25px;
     color: rgb(0, 13, 255);
 }
-.year{
-    padding-right: 30px;
-    color: white;
-}
+
 #container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -70,6 +60,9 @@ header p {
     grid-column: 3/4;
     grid-row: 1/4;
     display: grid;
+    padding: 10px;
+    border: 1px solid black;
+    gap: 10px;
 }
 #weather{
     grid-column: 1/2;
@@ -86,4 +79,15 @@ header p {
 #newRelease{
     grid-column: 2/3;
     grid-row: 3/4;
+}
+#event {
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+#spotlight3 {
+    display: block;
+}
+#join{
+    display: block;
+}
 }
