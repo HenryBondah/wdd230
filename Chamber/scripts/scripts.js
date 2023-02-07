@@ -5,7 +5,7 @@ function toggleManu() {
 }
 
 const x = document.getElementById('hamburgerBtn')
-// x.onclick = toggleManu;
+x.onclick = toggleManu;
 
 let date = new Date
 

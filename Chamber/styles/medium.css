@@ -8,19 +8,22 @@
         border-left: 1px solid rgba(0, 0,0,0.3);
         justify-content: flex-start;
         font-size: .9rem;
-    
+    }
+    nav{
+        display: flex;
     }
     nav ul li a{
         border: none;
         border-right: 1px solid rgba(0, 0,0,0.3);
     }
+}
     #container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows:repeat(5, 1fr);
+        grid-template-rows:repeat(5, auto);
         gap: 10px;
         padding: 10px;
-        height: 50rem;
+        height: fit-content;
     }
     #container section{
         border: 1px solid black;
@@ -49,6 +52,10 @@
         grid-column: 3/4;
         grid-row: 5/6;
     }    
+    .stats {
+        top: 750px;
+        right: 79px;
+    }
     #section {
   width: 500px;
   margin: 20px auto;
@@ -61,4 +68,3 @@
     #join{
         display: block;
     }
-}
