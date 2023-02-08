@@ -1,4 +1,5 @@
 @media only screen and (min-width : 40rem) {
+
     nav button {
         display: none;
     }
@@ -16,7 +17,16 @@
         border: none;
         border-right: 1px solid rgba(0, 0,0,0.3);
     }
-}
+    .stats {
+        top: 579px;
+        right: 30px;
+    }
+    header h1 {
+        margin-top: 10px;
+    }
+    header p {
+        margin-top: -10px;
+    }
     #container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -38,7 +48,12 @@
     }.spotlight{
         grid-column: 1/4;
         grid-row: 3/4;
-        display: flex;
+        display: grid;   
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    #spotlight1 h1 ,#spotlight2 h1, #spotlight3 h1{
+        /* font-size: 17px; */
     }
     #join{
         grid-column: 1/4;
@@ -52,19 +67,19 @@
         grid-column: 3/4;
         grid-row: 5/6;
     }    
-    .stats {
-        top: 750px;
-        right: 79px;
-    }
+    
     #section {
   width: 500px;
   margin: 20px auto;
   padding: 50px;
   border-width: 10px;
 }
-    #spotlight3 {
-        display:none;
-    }
-    #join{
-        display: block;
-    }
+#spotlight3 {
+    display:none;
+}
+#join{
+    display: none;
+}
+
+}
+    
