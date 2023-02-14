@@ -114,11 +114,9 @@ footer p, h4, a{
 #container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:repeat(5, 1fr);
+    grid-template-rows:repeat(5, auto);
     gap: 10px;
     padding: 10px;
-  
-
 }
 #container section{
     border: 1px solid black;
@@ -126,6 +124,9 @@ footer p, h4, a{
 #hero{
     grid-column: 1/4;
     grid-row: 1/2;
+}
+#hero{
+    position: relative;
 }
 #event{
     grid-column: 1/4;
@@ -190,7 +191,7 @@ header h1 {
     color: white;
 }
 .stats {
-    position: absolute;
+  
     background: radial-gradient(#2256b2, #a0b5ec);
     border: 1px solid rgba(0,0,0,.1);
     padding: -0.5rem;
@@ -199,6 +200,7 @@ header h1 {
     border-radius: 10px;
     top: 491px;
     right: 59px;
+    width: fit-content;
 }
 .stats h2{
     margin: 10px;
@@ -313,7 +315,7 @@ header h1 {
     color:#eee;
 }
 .weather img {
-    width: 280px;
+    width: 280;
 }
 #weather h1 {
     text-align: center;
