@@ -1,0 +1,17 @@
+picture img{            
+    display: block;
+    box-shadow: 2px 2px 2px 2px #246;
+    filter: blur(0.0em);
+    transition: filter .5s;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    justify-content: center;
+    
+}
+
+picture img[data-src]{
+    filter: blur(0.3em);
+    width: 300px;
+    height: 400px;
+}

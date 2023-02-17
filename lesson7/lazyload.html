@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="screate chambers of commence site">
-
-    <title>The ScrEAte Chambers</title>
+    <meta name="description" content="Lazy Loading Example">
     <link rel="stylesheet" href="../Chamber/styles/small.css">
     <link rel="stylesheet" href="../Chamber/styles/medium.css">
     <link rel="stylesheet" href="../Chamber/styles/large.css"> 
+    <title>Lazy Loading Example</title>
+    <link rel="stylesheet" href="./lazy.css">
+    <script src="./lazy.js" defer></script>
 
     <script src="../Chamber/scripts/scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/5716228e59.js" crossorigin="anonymous"></script>
@@ -50,68 +51,28 @@
                </ul>
                <span class="year"></span>
            </nav> 
-          <main>
-           <div id="container">
-            <section id="event">
-               <h1>The ScrEAte</h1>
-                <h2>The Diamond Shock</h2>
-                <p>Liditate, deserunt!</p>
-             </section>
-            <section id="weather">
-                <H1>Weather</H1>
-            <img src="../Chamber/images/Weather" alt="weatherimg" width="140">
-            <h2><span id="temperature">?</span>&deg; F</h2>  
-            <h2 id="weatherdesc">Clear</h2>  
-            <hr>
-              <h3>Wind Speed: <span id="windspeed">?</span> mph</h3>
-              <h3>Wind Chill: <span id="windchill">?</span></h3> 
-            </section>
-            <section id="hero">
-                    <div class="herodiv">
-                        <picture>
-                        <source media="(max-width: 400px)" srcset="./images/hero" />
-                        <source media="(max-width: 800px)" srcset="./images/hero" />
-                        <img src="./images/hero" alt="hero" />
-                        </picture>
-                        <section class="stats">
-                            <h2>Check Our Services</h2>
-                        </section>
-                    </div>
-              </section>
-              <div class="spotlight">
-                <section id="spotlight1">
-              <h1>The Tech World</h1>   
-            <img src="../Chamber/images/tech" alt="tech-image" >
-            <p>"Just ask for it"</p>
-            <HR>
-            <p>It will be delivered</p>                
-           </section>
-                  <section id="spotlight2">
-              <h1>The ScrEAte Class</h1>   
-            <img src="../Chamber/images/classes" alt="tech-image" >
-            <p>"Just ask for it"</p>
-            <HR>
-            <p>It will be delivered</p> 
-                    </section>
-                  <section id="spotlight3">
-              <h1>Building Oneself</h1>   
-            <img src="../Chamber/images/build" alt="tech-image" >
-            <p>"Just ask for it"</p>
-            <HR>
-            <p>It will be delivered</p> 
-                      </section>
-              </div>
-              <section id="newRelease">
-                <h2>Updates From ScrEAte</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit voluptate expedita tenetur, enim molestias neque magni officiis alias voluptas aliquid incidunt quos, maxime nesciunt, sunt quibusdam et aspernatur soluta porro? Eos molestias consequatur, atque accusamus sunt sapiente deserunt eius sint quibusdam odit provident iste quo assumenda magni dignissimos ducimus?</p>
-                    </section>
-              <section id="join">
-<p>Discover How to join the most trending and quality providers of all sort of technological Works.</p>               
- 
- <button>Join Us</button> 
-              </section>
-          
-            </div>
+        
+           <body>
+            <h1>Lazy Loading Example</h1>
+            <picture>
+                <img src="./images/Place Holder.png" data-src="./images/cloud" alt="A blue blue gingham square." >
+            </picture>
+            <picture>
+                <img src="./images/Place Holder.png" data-src="./images/falls" alt="A mountain bluebird." >
+            </picture>
+            <picture>
+                <img src="./images/place Holder.png" data-src="./images/forest" alt="A BYU football helmet." >
+            </picture>
+            <picture>
+                <img src="./images/place Holder.png" data-src="./images/sky" alt="A patch of blueberries." >
+            </picture>
+            <picture>
+                <img src="./images/place Holder.png" data-src="./images/falls" alt="The BYU-Idaho logo." >
+            </picture>
+            <picture>
+                <img src="./images/place Holder.png" data-src="./images/forest" alt="A cloudy sky." >
+            </picture>
+        </body>
 
             <footer>
                 <div class="footer-content">
