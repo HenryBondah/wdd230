@@ -1,7 +1,7 @@
 
 #box3 {
     display: grid;
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
     border-width: 10px;
     background-color: aqua;
@@ -16,4 +16,15 @@
     padding: 10px;width: 300px;
     padding: 10px;
 }
-
+#Hello {
+    display: grid;
+    width: 90%;
+    margin: 10px auto;
+    border-width: 10px;
+    background-color: rgb(204, 0, 255);
+}
+ p{
+    width: 90%;
+    margin: 10px auto;
+    border-width: 10px;
+}
