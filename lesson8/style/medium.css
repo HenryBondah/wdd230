@@ -1,0 +1,29 @@
+@media only screen and (min-width : 40rem) {
+
+    nav button {
+        display: none;
+    }
+    nav ul#primaryNav{ 
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0, 0,0,0.3);
+        justify-content: flex-start;
+        font-size: .9rem;
+    }
+    nav{
+        display: flex;
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0, 0,0,0.3);
+    }
+
+    header h1 {
+        margin-top: 10px;
+    }
+    header p {
+        margin-top: -10px;
+    }
+   
+}
+    

@@ -1,0 +1,293 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. 
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} */
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    columns: #555;
+}
+
+nav{
+    background-color: rgb(0, 13, 255);
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+header h1 {
+    font-size: 1.5rem;
+}
+header h2 {
+    font-size: 1rem;
+}
+header p {
+    margin-top: -10px;
+}
+header h1 {
+    margin-top: -10px;
+}
+.logo img{
+    margin: 10px;
+    margin-left: 40px;
+    width: 80px;
+}
+footer img{
+    margin: 10px;
+    margin-left: 230px;
+    border-radius: 10px;
+    width: 90px;
+}
+footer{
+    display: block;
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    display: block;
+    justify-content: flex-end;
+    color: rgb(0, 0, 0);
+}
+/* Footer */
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.footer-base{
+    text-align: center;
+    color: #eee;
+    background-color: #0800f9;
+}
+.footer-base p{
+    color: #eee;
+}
+.footer-contact{
+    text-align: center;
+}
+footer hr{
+    height: 1px;
+    background-color: #0800f9;    
+    border: none;        
+}
+.footer-map {
+    font-size: 60px;
+    color: rgb(0, 13, 255);
+    justify-self: flex-end;
+    margin-right: 230px;
+}
+footer p, h4, a{
+    color: #000000;
+}
+
+#meet-greet{
+    text-align: center;
+}
+.social {
+    display: flex;
+    gap: 10px;
+    align-self: flex-start;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.social a {
+    color: blue;
+}
+header{
+    display :flex;
+    align-items: center;
+    background-color: white;
+}
+header div:nth-child(2){
+    width: 100%;
+}
+.logo img{
+    margin: 10px;
+    margin-left: 40px;
+}
+
+header p {
+    margin-top: -1px;
+}
+header h1 {
+    margin-top: -13px;
+}
+.year{
+    padding-right: 30px;
+    color: white;
+}
+
+
+
+
+/*Discover Page*/
+
+.discover_title {
+    text-align: center;
+}
+.galery_container {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.discover_image_container {
+    width: 100%;
+    height: fit-content;
+    background-image: url("https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=");
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+   
+}
+
+.loader {
+    width: 100%;
+    height: fit-content;
+
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(        
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(232, 231, 247, 0.5) 50%,
+      rgba(255, 0, 0, 0) 80%
+    );
+    background-repeat: repeat-y;        
+    background-size: 50px 200px;        
+    background-position: 0 0;
+    animation: shine 1.5s infinite;
+}
+.main_discover {
+    max-width: 1600px;
+
+}
+.column {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.galery_container {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.discover_image_description {
+    position: relative;
+    bottom: 0px;
+    background-color: rgb(0, 12, 185);
+    opacity: 1;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    
+   
+}
+.discover_image_description p {
+    color: white;
+    padding: 20px;
+}
+@keyframes shine {
+    from {
+        background-position: -10%;
+    }
+    to {
+        background-position: 120% 0%, 50% 0%;
+    }
+}
+
+@media screen and (min-width:900px) {
+ 
+    main {
+        grid-template-columns: 60% 1fr;
+        gap: 15px;
+      
+    }
+    
+    .discover_image_container:hover {
+        transform: scale(1.1);
+        transition: transform 330ms ease-in-out;
+        z-index: 1;
+    }
+    .discover_image_container:not(hover) {
+        transform: scale(1);
+        transition: transform 330ms ease-in-out;
+        
+    }
+
+}
+
+@media  screen and (min-width:1100px) {
+    main {
+        grid-template-columns: 20% 1fr 20%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .discover_image_container:hover {
+        transform: scale(1.1);
+        transition: transform 330ms ease-in-out;
+        z-index: 1;
+    }
+    .discover_image_container:not(hover) {
+        transform: scale(1);
+        transition: transform 330ms ease-in-out;
+        
+    }
+
+    .galery_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .column {
+        width: 32.3%;
+      
+    }
+    .discover_image_description {
+        display: none;
+    }
+   
+    .discover_image_container:hover .discover_image_description {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        background-color: black;
+        opacity: 1;
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
