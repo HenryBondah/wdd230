@@ -26,17 +26,20 @@ listSelector.addEventListener('click', ()=>{
 // Load JSON data and do stuff
 const url = "./data/business.json";
 
+console.log(url)
+
+
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
-const displayBusinesses = (businesss) => {
+const displayBusinesses = (businesses) => {
   const cards = document.querySelector(".directory-cards"); // select the output container element
-console.log(businesss)
+console.log(businesses)
 
-  businesss.forEach((business) => {
+  businesses.forEach((business) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
     card.innerHTML = `
-    <img src="${business.imageURL}">
+    <img src="${business.image}" width = "250px">
     <p>${business.name}</p>
     <p>${business.streetAddress}</p>
     <p>${business.cityStateZip}</p>

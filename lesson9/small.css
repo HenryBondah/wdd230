@@ -159,10 +159,12 @@ header div:nth-child(2){
     border-radius: 5px;
     background-color: rgb(0, 47, 255);
     border: 1px rgb(0, 0, 0) solid;
+    color: white;
 }
 
 #directory-selector button.active{
     background-color: rgb(0, 47, 255);
+    color: white;
 }
 
 /* Cards view */
@@ -175,11 +177,13 @@ header div:nth-child(2){
 
 .directory-cards section{
     text-align: center;    
-    border: 2px solid rgb(31, 45, 154);    
+    border: 2px solid rgb(0, 25, 218);    
     width: 300px;
-    background-color: #d49764;
+    background-color: #ffffff;
     padding: 1rem;
     margin: .5rem;
+    border-radius: 10px;
+
 }
 
 .directory-cards .gold-member{
@@ -214,3 +218,13 @@ header div:nth-child(2){
     background-color: azure;
 }
 
+#directory_data section{
+    border-radius: 10px;
+}
+
+/* for the prophet */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
