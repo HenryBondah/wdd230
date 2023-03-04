@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="screate chambers of commence site">
 
-    <title>The ScrEAte Chambers/tables</title>
-    <link rel="stylesheet" href="./style/large.css">
-    <link rel="stylesheet" href="./style/medium.css">
-    <link rel="stylesheet" href="./style/small.css"> 
+    <title>The ScrEAte Chambers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./small.css" />
+    <link rel="stylesheet" href="./medium.css" />
+    <link rel="stylesheet" href="./large.css" />    
+    <script src="./script/header-footer.js" defer></script>    
+    <script src="./script/directory.js" defer></script>    
+    <script src="../Chamber/scripts/scripts.js" defer></script>    
+    <link rel="stylesheet" href="../lesson9/data/prophet.json">
 
-    <script src="/Chamber/scripts/scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/5716228e59.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/favicon_io/favicon.ico" >
 
@@ -20,7 +24,7 @@
     <div id="meet-greet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     <hr>
     <header>
-        <div class="logo"><img src="./images/screatelogo.webp" alt="Dean" width="140" height="75"></div>
+        <div class="logo"><img src="../Chamber/images/screatelogo.webp" alt="Dean" width="140" height="75"></div>
         <div class="title">
             <h1>The ScrEAte Chambers</h1>
             <p>Where Possibilities Has No Limits</p>
@@ -40,56 +44,28 @@
            <nav>
                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
                <ul id="primaryNav">
-                <li ><a href="..Chamber/index.html">Home</a></li>
-                <li><a href="../lesson7/lazyload.html">Lazy Load </a></li>
-                <li><a href="../lesson7/discover/discover.html">Discover</a></li>
-                <li><a href="../form.html">Join Now</a></li>    
-                    <li class="active"><a href="../table/tablebuild.html">Table</a></li>
-                    <li><a href="/lesson9/directory.html">Directory</a></li>
+                    <li><a href="../Chamber/index.html">Home</a></li>
+                    <li><a href="../lesson7/lazyload.html">Lazy Load </a></li>
+                    <li><a href="../lesson7/discover/discover.html">Discover</a></li>
+                    <li><a href="../lesson8/form.html">Join Now</a></li>    
+                    <li><a href="../lesson8/table/tablebuild.html">Table</a></li>
+                    <li class="active"><a href="../lesson9/directory.html">Directory</a></li>
                     <li><a href="#">Others</a></li>
                </ul>
                <span class="year"></span>
            </nav> 
-   
-    <table>
-        <caption> First Table: Account Feature</caption>
-        <thead>
-            <tr>
-                <th colspan="4"> <H2> The ScrEAte Wild Services </H2></th>
-            </tr>
-            <tr>
-                <H4><th>&nbsp;</th>
-                <th> <H4>Basic</H4></th>
-                <th> <H4>Premium</th>
-                <th> <H4>Deluxe</H4></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Feature 1</td>
-                <td>&check;</td>
-                <td>&check;</td>
-                <td>&check;</td>
-            </tr>
-            <tr>
-                <td>Feature 2</td>
-                <td>x</td>
-                <td>&check;</td>
-                <td>&check;</td>
-            </tr>
-            <tr>
-                <td>Feature 2</td>
-                <td>x</td>
-                <td>x</td>
-                <td>&check;</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
+    <main class="directory-main">
+    <div id='directory-selector'>
+      <button id="directory-grid" class="active">GRID</button>
+      <button id="directory-list">LIST</button></div>
+    <div id='directory-data' class='directory-cards'>
+    </div>
+    </main>
+<hr>
     <footer>
         <div class="footer-content">
           <div class="footer-logo">
-            <img src="./images/screatelogo.webp" alt="mylogo" width="70">
+            <img src="../Chamber/images/screatelogo.webp" alt="mylogo" width="70">
           </div>
           <div class="footer-contact">
             <h4>The ScrEAte Chambers</h4>
