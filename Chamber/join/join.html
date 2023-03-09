@@ -7,11 +7,11 @@
     <meta name="description" content="screate chambers of commence site">
 
     <title>The ScrEAte Chambers</title>
-    <link rel="stylesheet" href="../lesson8/style/small.css">
-    <link rel="stylesheet" href="../lesson8/style/medium.css">
-    <link rel="stylesheet" href="../lesson8/style/small.css"> 
+    <link rel="stylesheet" href="../join/style/small.css">
+    <link rel="stylesheet" href="../join/style/medium.css">
+    <link rel="stylesheet" href="../join/style/small.css"> 
 
-    <script src="../lesson8/script/main.js" defer></script>
+    <script src="../scripts/scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/5716228e59.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/favicon_io/favicon.ico" >
 
@@ -20,7 +20,7 @@
     <div id="meet-greet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     <hr>
     <header>
-        <div class="logo"><img src="../Chamber/images/screatelogo.webp" alt="Dean" width="140" height="75"></div>
+        <div class="logo"><img src="../images/screatelogo.webp" alt="Dean" width="140" height="75"></div>
         <div class="title">
             <h1>The ScrEAte Chambers</h1>
             <p>Where Possibilities Has No Limits</p>
@@ -40,13 +40,11 @@
            <nav>
                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
                <ul id="primaryNav">
-                    <li ><a href="../Chamber/index.html">Home</a></li>
-                    <li><a href="../lesson7/lazyload.html">Lazy Load </a></li>
-                    <li><a href="../lesson7/discover/discover.html">Discover</a></li>
-                    <li><a href="../lesson8/form.html">Join Now</a></li>    
-                    <li><a href="../lesson8/table/tablebuild.html">Table</a></li>
-                    <li class="active"><a href="../lesson9/directory.html">Directory</a></li>
-                    <li><a href="../lesson9/prophet/prophets.html">Prophet</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../discover/discover.html">Discover</a></li>
+                <li><a href="../directory/directory.html">Directory</a></li>
+                <li class="active"><a href="../join/join.html">Join Now</a></li>    
+                <li><a href="../contact/#">Contact</a></li>
                </ul>
                <span class="year"></span>
            </nav> 
@@ -56,44 +54,44 @@
            <div class="container">
             <form id="join-us-form">
                 <label for="name">First Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <input type="text" id="name" name="name1" placeholder="Enter your First Name" required>
 
                 <label for="name">Last Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <input type="text" id="name1" name="name2" placeholder="Enter your Last Name" required>
 
                 <label for="message">Business Position:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your Position" >
+                <input type="text" id="position" name="name1" placeholder="Enter your Position" >
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="eg. henry@gmail.com" required>
 
-                <label for="email">Phone Number:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your number" required>
+                <label for="number">Phone Number:</label>
+                <input type="number" id="number" name="number" placeholder="Enter your number" required>
 
-                <label for="email">Business Name:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your Business name" required>
+                <label for="name3">Business Name:</label>
+                <input type="text" id="business" name="business" placeholder="Enter your Business name" required>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" placeholder="Describe your business"></textarea>
     
-                <button type="submit" id="submit-btn">Join Us</button>
+                <button type="submit" id="submit-btn"  href="../join/thankyou.html">Join Us</button>
+                
             </form>
     
             <div class="offers-container">
                 <h1>Our Offers</h1>
                 <ul>
                    <li> <h2>Premium</h2></li>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed fugit nihil temporibus ratione beatae atque nesciunt. 
-                        Animi suscipit vitae vel!</p>
+                        Animi suscipit vitae vel! </p>
                    <li> <h3>Gold</h3></li>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed fugit nihil temporibus ratione beatae atque nesciunt. 
-                        Animi suscipit vitae vel!</p>
+                        Animi suscipit vitae vel! </p>
                     <li><h4>Silver</h4></li>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sed fugit nihil temporibus ratione beatae atque nesciunt. 
-                        Animi suscipit vitae vel!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed fugit nihil temporibus ratione beatae atque nesciunt. Animi suscipit vitae vel! </p>
                 </ul>
             </div>
         </div>
@@ -102,7 +100,7 @@
             <footer>
                 <div class="footer-content">
                   <div class="footer-logo">
-                    <img src="../Chamber/images/screatelogo.webp" alt="mylogo" width="70">
+                    <img src="../images/screatelogo.webp" alt="mylogo" width="70">
                   </div>
                   <div class="footer-contact">
                     <h4>The ScrEAte Chambers</h4>
@@ -120,6 +118,6 @@
                   <p>© <span id="currentyear">2023</span> | Henry Dean Bondah | Rexburg, ID | Last Updated: <span id="lastmodified">02/01/2023 15:15:56</span></p>
                 </div>
               </footer>
-          </main>
+       
 </body>
 </html>
