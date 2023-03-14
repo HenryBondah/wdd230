@@ -38,6 +38,16 @@ console.log(businesses)
   businesses.forEach((business) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
+
+    if(business.level == "silver") {
+      card.classList.add("silver")
+    }
+    if(business.level == "gold") {
+      card.classList.add("gold")
+    }
+    if(business.level == "bronze") {
+      card.classList.add("bronze")
+    }
     card.innerHTML = `
     <img src="${business.image}" width = "250px">
     <p>${business.name}</p>

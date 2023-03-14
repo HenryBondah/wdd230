@@ -44,7 +44,7 @@
                 <li><a href="../discover/discover.html">Discover</a></li>
                 <li><a href="../directory/directory.html">Directory</a></li>
                 <li class="active"><a href="../join/join.html">Join Now</a></li>    
-                <li><a href="../contact/#">Contact</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
                </ul>
                <span class="year"></span>
            </nav> 
@@ -60,16 +60,25 @@
                 <input type="text" id="name1" name="name2" placeholder="Enter your Last Name" required>
 
                 <label for="message">Business Position:</label>
-                <input type="text" id="position" name="name1" placeholder="Enter your Position" >
+                <input type="text" id="position" name="name1" pattern="[- A-Za-z]+" required minlength="7" placeholder="Enter your Position" >
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="eg. henry@gmail.com" required>
 
-                <label for="number">Phone Number:</label>
-                <input type="number" id="number" name="number" placeholder="Enter your number" required>
+                <label for="tel">Phone Number:</label>
+                <input type="tel" id="tel" name="number" placeholder="Enter your number" required>
 
-                <label for="name3">Business Name:</label>
+                <label for="name">Business Name:</label>
                 <input type="text" id="business" name="business" placeholder="Enter your Business name" required>
+
+                <label class="top">Membership Level:
+                    <select name="membership">
+                        <option value="">Please Select</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" placeholder="Describe your business"></textarea>
@@ -81,17 +90,17 @@
             <div class="offers-container">
                 <h1>Our Offers</h1>
                 <ul>
-                   <li> <h2>Premium</h2></li>
-                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   <li> <h2>BRONZE</h2></li>
+                   <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed fugit nihil temporibus ratione beatae atque nesciunt. 
-                        Animi suscipit vitae vel! </p>
-                   <li> <h3>Gold</h3></li>
-                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Animi suscipit vitae vel! </li>
+                   <li> <h3>SILVER</h3></li>
+                   <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed fugit nihil temporibus ratione beatae atque nesciunt. 
-                        Animi suscipit vitae vel! </p>
-                    <li><h4>Silver</h4></li>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sed fugit nihil temporibus ratione beatae atque nesciunt. Animi suscipit vitae vel! </p>
+                        Animi suscipit vitae vel! </li>
+                    <li><h4>GOLD</h4></li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed fugit nihil temporibus ratione beatae atque nesciunt. Animi suscipit vitae vel! </li>
                 </ul>
             </div>
         </div>

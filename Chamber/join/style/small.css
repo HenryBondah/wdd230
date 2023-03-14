@@ -8,7 +8,6 @@ nav button{
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    columns: #555;
 }
 
 nav{
@@ -167,7 +166,7 @@ header h1 {
 			display: block;
 			margin-bottom: 20px;
 		}
-		input[type="text"], input[type="email"], textarea {
+		input[type="text"], input[type="email"], textarea, input[type="tel"] {
 			width: 100%;
 			padding: 10px;
 			border: 1px solid #ccc;
@@ -214,16 +213,13 @@ header h1 {
 		}
         .offers-container p {
             text-align: center;
-            text-shadow: #000000;
             margin: 30px;
         }
         .offers-container h3 {
-            color: rgb(212, 212, 61);
-            text-shadow: #000000;
+            color: silver;
         }
         .offers-container h4 {
             color: rgb(226, 226, 206);
-            text-shadow: #000000;
         }
 		.offers-container li {
 			padding: 10px;
@@ -234,6 +230,3 @@ header h1 {
         main {
             text-align: center;
         }
-        /* .offers-container {
-			display: none;
-		} */
